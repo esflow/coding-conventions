@@ -10,5 +10,6 @@
 | Interfaces             | PascalCase  | `interface ExampleInterface { member: T }` |
 | Enums and enum members | PascalCase  | `enum Color { Red, Green, Blue }`          |
 | Array types            | `[]`        | `items: string[]`                          | Don't use `Array<string>`                                     |
+| i18n                   | TITLE_CASE  | `clubs.CREATE_FORM.TITLE`                  | `clubs` in this case is namespace                             |
 
 We don't use Hungarian notation, we don't use `I` prefixes for interfaces, or `E` for enums.
